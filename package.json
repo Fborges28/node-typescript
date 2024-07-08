@@ -1,0 +1,24 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "description": "A simple api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fborges28/node-typescript.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "api"
+  ],
+  "author": "Felipe Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fborges28/node-typescript/issues"
+  },
+  "homepage": "https://github.com/Fborges28/node-typescript#readme"
+}
