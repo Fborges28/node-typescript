@@ -4,6 +4,10 @@
   "description": "A simple api",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +26,14 @@
   },
   "homepage": "https://github.com/Fborges28/node-typescript#readme",
   "devDependencies": {
+    "@types/module-alias": "^2.0.4",
     "@types/node": "^20.14.10",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "eslint": "^9.6.0",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
   }
 }
